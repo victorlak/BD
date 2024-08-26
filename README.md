@@ -322,12 +322,14 @@ erDiagram
     Consulta ||--o{ Exame : "solicita"
     Pessoa ||--o{ Consulta : ""
     Pessoa ||--o{ Enderecos : "tem"
+   
 
     Vacinacao ||--o{ Pessoa : ""
     Vacina ||--o{ Vacinacao : "tem"
     
     Laboratorio ||--o{ Notificacao : "relata"
     Laboratorio ||--o{ Exame : "relata"
+    Laboratorio ||--o{ Enderecos : "tem"
 
 
 
